@@ -171,6 +171,464 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
               ),
+              Container(
+                width: 450,
+                height: 80,
+                margin: const EdgeInsets.only(top: 15, right: 120),
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10),
+                    border: Border.all(color: Colors.grey.shade300)),
+                child: Row(
+                  children: [
+                    Container(
+                      margin:
+                          const EdgeInsets.only(left: 35, top: 15, right: 35),
+                      child: Column(
+                        children: [
+                          Container(
+                            width: 30,
+                            margin: const EdgeInsets.only(bottom: 7),
+                            child: Image.network(
+                                'https://cdn-icons-png.flaticon.com/128/715/715058.png'),
+                          ),
+                          Text(
+                            "TopUp",
+                            style: TextStyle(
+                                fontSize: 10,
+                                fontWeight: FontWeight.w800,
+                                color: Colors.grey[700]),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin:
+                          const EdgeInsets.only(left: 35, top: 15, right: 35),
+                      child: Column(
+                        children: [
+                          Container(
+                            width: 30,
+                            margin: const EdgeInsets.only(bottom: 7),
+                            child: Image.network(
+                                'https://cdn-icons-png.flaticon.com/128/11405/11405975.png'),
+                          ),
+                          Text(
+                            "Send Money",
+                            style: TextStyle(
+                                fontSize: 10,
+                                fontWeight: FontWeight.w800,
+                                color: Colors.grey[700]),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin:
+                          const EdgeInsets.only(left: 35, top: 15, right: 35),
+                      child: Column(
+                        children: [
+                          Container(
+                            width: 30,
+                            margin: const EdgeInsets.only(bottom: 7),
+                            child: Image.network(
+                                'https://cdn-icons-png.flaticon.com/128/955/955979.png'),
+                          ),
+                          Text(
+                            "Ticket Code",
+                            style: TextStyle(
+                                fontSize: 10,
+                                fontWeight: FontWeight.w800,
+                                color: Colors.grey[700]),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(left: 35, top: 15),
+                      child: Column(
+                        children: [
+                          Container(
+                            width: 30,
+                            margin: const EdgeInsets.only(bottom: 7),
+                            child: Image.network(
+                                'https://cdn-icons-png.flaticon.com/128/2951/2951372.png'),
+                          ),
+                          Text(
+                            "See All",
+                            style: TextStyle(
+                                fontSize: 10,
+                                fontWeight: FontWeight.w800,
+                                color: Colors.grey[700]),
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Row(
+                children: [
+                  Container(
+                    margin: const EdgeInsets.only(left: 40, top: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                          width: 40,
+                          margin: const EdgeInsets.only(bottom: 7),
+                          child: Image.network(
+                              'https://cdn-icons-png.flaticon.com/128/9461/9461203.png'),
+                        ),
+                        const Text(
+                          "Pulsa/Data",
+                          style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w800,
+                              color: Colors.black),
+                        )
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin: const EdgeInsets.only(left: 60, top: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                          width: 35,
+                          margin: const EdgeInsets.only(bottom: 7),
+                          child: Image.network(
+                              'https://cdn-icons-png.flaticon.com/128/2983/2983973.png'),
+                        ),
+                        const Text(
+                          "Electricity",
+                          style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w800,
+                              color: Colors.black),
+                        )
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin: const EdgeInsets.only(left: 75, top: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                          width: 30,
+                          margin: const EdgeInsets.only(bottom: 7),
+                          child: Image.network(
+                              'https://cdn-icons-png.flaticon.com/128/4430/4430151.png'),
+                        ),
+                        const Text(
+                          "BPJS",
+                          style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w800,
+                              color: Colors.black),
+                        )
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin: const EdgeInsets.only(left: 75, top: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                          width: 30,
+                          margin: const EdgeInsets.only(bottom: 7),
+                          child: Image.network(
+                              'https://cdn-icons-png.flaticon.com/128/2780/2780137.png'),
+                        ),
+                        const Text(
+                          "mgames",
+                          style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w800,
+                              color: Colors.black),
+                        )
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  Container(
+                    margin: const EdgeInsets.only(left: 40, top: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                          width: 30,
+                          margin: const EdgeInsets.only(bottom: 7),
+                          child: Image.network(
+                              'https://cdn-icons-png.flaticon.com/128/1183/1183606.png'),
+                        ),
+                        const Text(
+                          "Cable TV\n& Internet",
+                          style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w800,
+                              color: Colors.black),
+                        )
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin: const EdgeInsets.only(left: 75, top: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                          width: 30,
+                          margin: const EdgeInsets.only(bottom: 7),
+                          child: Image.network(
+                              'https://cdn-icons-png.flaticon.com/128/4497/4497450.png'),
+                        ),
+                        const Text(
+                          "PDAM",
+                          style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w800,
+                              color: Colors.black),
+                        )
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin: const EdgeInsets.only(left: 70, top: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                          width: 30,
+                          margin: const EdgeInsets.only(bottom: 7),
+                          child: Image.network(
+                              'https://cdn-icons-png.flaticon.com/128/8983/8983163.png'),
+                        ),
+                        const Text(
+                          "Kartu Uang\n Elektronik",
+                          style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w800,
+                              color: Colors.black),
+                        )
+                      ],
+                    ),
+                  ),
+                  Container(
+                    margin: const EdgeInsets.only(left: 67, top: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                          width: 30,
+                          margin: const EdgeInsets.only(bottom: 7),
+                          child: Image.network(
+                              'https://cdn-icons-png.flaticon.com/128/9684/9684712.png'),
+                        ),
+                        const Text(
+                          "More",
+                          style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w800,
+                              color: Colors.black),
+                        )
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  Container(
+                    margin: const EdgeInsets.only(top: 25),
+                    height: 140,
+                    width: 30,
+                    decoration: BoxDecoration(
+                        color: Colors.red[600],
+                        borderRadius: const BorderRadius.only(
+                            topRight: Radius.circular(10),
+                            bottomRight: Radius.circular(10))),
+                  ),
+                  Container(
+                    margin: const EdgeInsets.only(left: 20, top: 25),
+                    height: 140,
+                    width: 400,
+                    decoration: BoxDecoration(
+                      color: Colors.green.shade400,
+                      borderRadius: const BorderRadius.all(Radius.circular(10)),
+                    ),
+                  ),
+                  Container(
+                    margin: const EdgeInsets.only(left: 20, top: 25),
+                    height: 140,
+                    width: 30,
+                    decoration: BoxDecoration(
+                        color: Colors.red[900],
+                        borderRadius: const BorderRadius.only(
+                            topLeft: Radius.circular(10),
+                            bottomLeft: Radius.circular(10))),
+                  ),
+                ],
+              ),
+
+              //==== Circle slide =====//
+
+              Row(
+                children: [
+                  Container(
+                    margin: const EdgeInsets.only(left: 20, top: 10),
+                    width: 8,
+                    height: 8,
+                    decoration: BoxDecoration(
+                        color: Colors.grey.shade400,
+                        borderRadius: BorderRadius.circular(50)),
+                  ),
+                  Container(
+                    margin: const EdgeInsets.only(left: 10, top: 10),
+                    width: 8,
+                    height: 8,
+                    decoration: BoxDecoration(
+                        color: Colors.grey.shade400,
+                        borderRadius: BorderRadius.circular(50)),
+                  ),
+                  Container(
+                    margin: const EdgeInsets.only(left: 10, top: 10),
+                    width: 8,
+                    height: 8,
+                    decoration: BoxDecoration(
+                        color: Colors.grey.shade400,
+                        borderRadius: BorderRadius.circular(50)),
+                  ),
+                  Container(
+                    margin: const EdgeInsets.only(left: 10, top: 10),
+                    width: 8,
+                    height: 8,
+                    decoration: BoxDecoration(
+                        color: Colors.red[600],
+                        borderRadius: BorderRadius.circular(50)),
+                  ),
+                ],
+              ),
+
+              //==== Bottom Bar =====//
+              Container(
+                margin: const EdgeInsets.only(top: 10),
+                decoration: BoxDecoration(
+                  border: Border(
+                    top: BorderSide(width: 1.5, color: Colors.grey.shade300),
+                  ),
+                ),
+                child: Row(
+                  children: [
+                    Container(
+                      margin:
+                          const EdgeInsets.only(left: 35, top: 5, right: 35),
+                      child: Column(
+                        children: [
+                          Container(
+                            width: 25,
+                            margin: const EdgeInsets.only(bottom: 7),
+                            child: Image.network(
+                                'https://cdn-icons-png.flaticon.com/128/10263/10263049.png'),
+                          ),
+                          Text(
+                            "Home",
+                            style: TextStyle(
+                                fontSize: 10,
+                                fontWeight: FontWeight.w800,
+                                color: Colors.red[600]),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin:
+                          const EdgeInsets.only(left: 35, top: 5, right: 35),
+                      child: Column(
+                        children: [
+                          Container(
+                            width: 25,
+                            margin: const EdgeInsets.only(bottom: 7),
+                            child: Image.network(
+                                'https://cdn-icons-png.flaticon.com/128/2258/2258853.png'),
+                          ),
+                          Text(
+                            "History",
+                            style: TextStyle(
+                                fontSize: 10,
+                                fontWeight: FontWeight.w800,
+                                color: Colors.grey[700]),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin:
+                          const EdgeInsets.only(left: 35, top: 5, right: 35),
+                      child: Column(
+                        children: [
+                          Container(
+                            width: 30,
+                            height: 30,
+                            decoration: BoxDecoration(
+                                color: Colors.red[600],
+                                borderRadius: BorderRadius.circular(6)),
+                            child: Image.network(
+                                'https://cdn-icons-png.flaticon.com/128/10401/10401171.png'),
+                            // margin: EdgeInsets.only(bottom: 7),
+                          ),
+                          Text(
+                            "Pay",
+                            style: TextStyle(
+                                fontSize: 10,
+                                fontWeight: FontWeight.w800,
+                                color: Colors.grey[700]),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin:
+                          const EdgeInsets.only(left: 35, top: 5, right: 35),
+                      child: Column(
+                        children: [
+                          Container(
+                            width: 25,
+                            margin: const EdgeInsets.only(bottom: 7),
+                            child: Image.network(
+                                'https://cdn-icons-png.flaticon.com/128/3884/3884252.png'),
+                          ),
+                          Text(
+                            "Inbox",
+                            style: TextStyle(
+                                fontSize: 10,
+                                fontWeight: FontWeight.w800,
+                                color: Colors.grey[700]),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(left: 35, top: 5),
+                      child: Column(
+                        children: [
+                          Container(
+                            width: 25,
+                            margin: const EdgeInsets.only(bottom: 7),
+                            child: Image.network(
+                                'https://cdn-icons-png.flaticon.com/128/1077/1077063.png'),
+                          ),
+                          Text(
+                            "Account",
+                            style: TextStyle(
+                                fontSize: 10,
+                                fontWeight: FontWeight.w800,
+                                color: Colors.grey[700]),
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              )
             ],
           ),
         ));
